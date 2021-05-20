@@ -66,6 +66,11 @@ html {
     .card {
         width: 100%;
     }
+
+    .card:hover {
+        transform: none;
+        border: none;
+    }
 }
 
 }
