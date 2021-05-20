@@ -28,11 +28,12 @@
     width: 100px;
     height: auto;
 }
-.card {
+.single-card {
     align-items: center;
     text-align: center;
     transition-duration: 0.3s;
     box-shadow: 3px 5px 5px rgb(190, 184, 184);
+    width: 18rem;
 }
 .card:hover {
     transform: scale(1.1);
@@ -50,22 +51,22 @@ html {
 
 
 
-
+  @media only screen and (max-width: 900px) {
+ 
+    .card {
+        width: 100%;
+    }
 
 
 @media only screen and (max-width: 600px) {
-    .about-us {
-        display: block;
+    div.container.about-us {
+        flex-wrap: wrap;
         width: 100%;
     }
     .card {
         width: 100%;
     }
 }
-@media only screen and (max-width: 900px) {
- 
-    .card {
-        width: 50%;
-    }
+
 }
 
