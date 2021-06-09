@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 .blog-footer {
     padding: 2.5rem 0;
     color: #fff;
@@ -5,6 +7,11 @@
     background-color: #212529;
     border-top: .05rem solid #e5e5e5;
 }
+
+* {
+    font-family: 'Fira Sans', sans-serif; 
+}
+   
 
 .blog-footer a {
     text-decoration: none;
